@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-weight:300;
+    font-family:"Montserrat";
+    outline:none;
+}
+
+.main-div{
+    width:100vw;
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+    background-color: rgb(223, 190, 43);
+}
+.inner-div{
+    background-color:white;
+    width:40vw;
+    padding:3rem 5rem;
+    border-radius:1rem;
+    box-shadow: 3px 1rem 1rem -0.9rem black;
+}
+
+.inner-div h2{
+    margin-bottom:1rem;
+    font-size:2.0rem;
+    font-weight:400;
+
+}
+
+.inner-div li{
+    font-size:1.2rem;
+    list-style-type:none;
+    margin-top:0.7rem;
+}
+
+
+.inner-div input,label{
+    cursor:pointer;
+}
+#submit{
+    padding:.7rem 4rem;
+    margin:1rem 0rem 0rem 5.5rem;
+    color:white;
+    background-color: rgb(223, 190, 43);
+    border:none;
+    transition:all .5s ease;
+    font-size:.9rem;
+    margin-top:1.7rem;
+    
+}
+#submit:hover{
+    padding:.7rem 4rem;
+    margin:1rem 0rem 0rem 5.5rem;
+    color: rgb(223, 190, 43);
+    background-color:white;
+    border:1px solid rgb(223, 190, 43);
+    margin-top:1.7rem;
+
+
+}
+
+
+#showscore{
+    background-color:rgb(243, 228, 140);
+    margin-top:2rem;
+    padding:3rem 4rem;
+
+}
+
+.showarea{
+    display:none;
+    border:3px solid rgb(223, 190, 43);
+    border-radius:.5rem;
+}
+
+
+
+.btn{
+    padding:.7rem 4rem;
+    margin:1rem 0rem 0rem 1rem;
+    color:white;
+    background-color: rgb(223, 109, 43);
+    border:none;
+    transition:all .5s ease;
+    font-size:.9rem;
+    margin-top:1.7rem;
+}
